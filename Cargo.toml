@@ -2,11 +2,12 @@
 name = "symbologyl2-py"
 version = "0.1.6"
 edition = "2024"
+rust-version = "1.85"
 
 [lib]
 name = "symbologyl2"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = { version = "0.24.2", features = ["extension-module"] }
+pyo3 = { version = "0.28.2", features = ["extension-module"] }
 symbologyl2 = "0.1.2"
